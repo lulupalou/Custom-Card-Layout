@@ -1,4 +1,20 @@
 /* Add screen styles below */
+body { 
+    background: #170312
+}
+div.card {
+    background:#A0ACAD;
+    color:#170312;
+    margin: 0 auto;
+    width: 500px;
+}
 a.active {
     font-weight: bold;
+}
+
+#company {
+    
+}
+h1{
+    background: #AE847E
 }
