@@ -1,20 +1,45 @@
 /* Add screen styles below */
 body { 
-    background: #170312
+    background: #170312;
+    margin-top: 100px;
 }
-div.card {
+.card {
     background:#A0ACAD;
     color:#170312;
     margin: 0 auto;
     width: 500px;
+    height: 300px;
+    border-radius: 20px; 
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    font-family: Arial, Helvetica, sans-serif;
 }
-a.active {
-    font-weight: bold;
+
+.card div{
+    padding: 20px;
+}
+
+.list {
+     padding-left: 0;
+     list-style-position: inside;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 #company {
-    
+
 }
 h1{
-    background: #AE847E
+    background: #AE847E;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img { 
+    float: left;
+    margin-right: 20px;
+}
+a.active {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
